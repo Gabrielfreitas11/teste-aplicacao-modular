@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  serverless:
+    build:
+      context: ./docker/serverless
+    volumes:
+      - ./:/home/serverless
+      - ./config/aws:/root/.aws
+    ports:
+      - "3000:3000"
+    # depends_on:
+
+volumes:
+  database-data:
+    driver: "local"

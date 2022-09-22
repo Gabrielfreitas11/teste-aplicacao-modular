@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "47451053962",
+    "project_id": "testsmashflutter",
+    "storage_bucket": "testsmashflutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47451053962:android:a2c031dbe582b2017e3273",
+        "android_client_info": {
+          "package_name": "com.lunch.test_smash_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47451053962-7jpktssaq19m6rtuomkeilpm1u1qsa2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUCoGePuI1dxdLKmy4KegTOBKa0yJKocQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47451053962-7jpktssaq19m6rtuomkeilpm1u1qsa2t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "47451053962-shmuua8o5jphijgvf6929doviurmn10n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lunch.testSmashFlutter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

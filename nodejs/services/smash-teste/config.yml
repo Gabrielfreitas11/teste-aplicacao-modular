@@ -1,0 +1,19 @@
+service: smash-teste-project
+
+functions:
+  importData:
+    handler: services/smash-teste/routes.importData
+    environment:
+      client: fis
+      service: importData
+      authMethod: header
+      authToken: 748791ed-df71-4f12-8fce-918164878d9a
+    events:
+      - http:
+          path: importData
+          method: POST
+
+customDomain:
+  domainName: "api.example.com.br"
+  basePath: "smash-teste-${self:provider.stage}"
+  stage: ${self:provider.stage}
